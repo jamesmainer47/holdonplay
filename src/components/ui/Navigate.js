@@ -19,8 +19,8 @@ export default function Navigate(){
     const [menuOpen, setMenuOpen] = useState(false);
     console.log(menuOpen);
     return (
-        <nav className="flex flex-row text-white justify-between p-2 self-center-safe items-center align-middle sticky top-0 h-20 bg-[rgba(0,0,0,0.7)]">
-            <Link href="/"><h1 className="text-3xl font-bold">hold<span className="text-blue-400 text-5xl font-extrabold">ON</span>play</h1></Link>
+        <nav className="flex flex-row text-white justify-between w-full p-2 self-center-safe items-center align-middle sticky top-0 h-20 bg-[rgba(0,0,0,0.7)]">
+            <Link href="/"><h1 className="text-3xl font-bold p-5">hold<span className="text-blue-400 text-5xl font-extrabold">ON</span>play</h1></Link>
             <div className="flex relative">
                 <ul className="hidden xl:flex md:hidden lg:hidden flex-row flex items-center self-center">
                 {forNavs.map((navitem, i) => (
@@ -30,7 +30,7 @@ export default function Navigate(){
                 </Link>
                 ))}
                 </ul>
-                <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden flex relative focus:outline-blue-400"><FiMenu className="hover:text-blue-400"/></button>
+                <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden flex relative focus:outline-blue-400 size-10"><FiMenu className="hover:text-blue-400 size-10"/></button>
                  <div className={`mt-3 space-y-2  top-5 left-[-200] absolute  md:space-y-0 md:space-x-6 ${menuOpen ? 'block' : 'hidden'} `}>
                 <ul className="flex-col flex items-center self-center bg-black ">
                 {forNavs.map((navitem, i) => (

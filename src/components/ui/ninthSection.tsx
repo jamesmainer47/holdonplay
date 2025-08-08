@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function NinthSection(){
     return (
-        <div className="flex flex-row lg:flex-row sm:flex-col items-center self-center justify-center p-2 h-150 sm:h-dvh text-center">
-            <div className="w-200 sm:w-150 lg:w-200">
+        <div className="flex flex-col lg:flex-row sm:flex-col items-center self-center justify-center p-20  sm:h-dvh text-center">
+            <div className="flex flex-col max-w-200">
                 <h1 className="text-6xl font-extrabold sm:text-2xl ">Reach More Fans.</h1>
                 <h1 className="text-6xl font-extrabold sm:text-2xl">Increase Your Streams.</h1>
                 <h1 className="text-6xl font-extrabold text-blue-400 sm:text-2xl">Grow Your Music Career.</h1>
@@ -15,8 +15,8 @@ export default function NinthSection(){
                     greater audience reach. In the first half of 2024 alone, Accelerator generated 10 billion
                     streams for opted-in artists.
                 </p>
-                <button className="p-2 m-2 bg-blue-400 border-blue-400 rounded-full border-2"><Link href="/signUp">SIGN UP </Link></button>
-                <button className="p-2 m-2 bg-black border-blue-400 rounded-full border-2"><Link href="/watchVideo">WATCH READ THE REPORT</Link></button>
+                <button className="p-2 w-fit self-center m-2 bg-blue-400 border-blue-400 rounded-full border-2"><Link href="/signUp">SIGN UP </Link></button>
+                <button className="p-2 w-fit self-center m-2 bg-black border-blue-400 rounded-full border-2"><Link href="/watchVideo">WATCH READ THE REPORT</Link></button>
             </div>
             <Image src="/forhome/tool.webp" alt="simple" width={500} height={500}/>
         </div>

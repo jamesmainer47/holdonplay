@@ -2,7 +2,7 @@
 
 export default function Footer(){
     return (
-        <div className="flex row justify-center p-10 m-2 bg-black">
+        <div className="flex flex-col sm:flex-col md:flex-col  lg:flex-row justify-center p-10 m-2 bg-black sm:text-center text-center lg:text-left md:text-center">
             <div className="p-2 m-2">
                 <h1 className="text-2xl font-bold">Learn About HoldOnPlay</h1>
                 <ul>
