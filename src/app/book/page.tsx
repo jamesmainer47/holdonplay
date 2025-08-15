@@ -12,7 +12,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj Moses",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -20,7 +20,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj S2kizy",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -28,7 +28,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj onaman",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -36,7 +36,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj FiveTwo",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -44,7 +44,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "DjEverything",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -52,7 +52,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj Love",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -60,7 +60,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj Hate",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -68,7 +68,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj Jealous",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -76,7 +76,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj HomeBoy",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -84,7 +84,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj Msela",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -92,7 +92,7 @@ const djs = [
         "instagram_usesrname": "koiso2027"
     },
     {
-        "name" : "Dj Tyga",
+        "name" : "Dj KOISO",
         "level" : "Professional",
         "priceperHour" : "30,000/=",
         "priceperSession": "100,000/=",
@@ -123,12 +123,12 @@ export default function Rent(){
                             <p>Fuck</p>
                         </div>
                     </div>
-                    <Link href="/book/dj"  className="rounded-full p-5 bg-blue-500  hover:bg-blue-900 font-bold text-2xl">BOOK THE DJ HERE</Link>
+                    <Link href="https://wa.me/255625250232"  className="rounded-full p-5 bg-blue-500  hover:bg-blue-900 font-bold text-2xl">TALK TO RECEPTION</Link>
                     </div>
-                    <div className="p-10 sm:p-0 flex flex-row flex-wrap gap-2">
+                    <div className="p-10 flex flex-row flex-wrap gap-5">
                         {djs.map((dj) => (
                             <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
-                                <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
+                                <h1 className="fontbold">{dj.name.toUpperCase()}</h1>
                                 <p className=" text-red-600">{dj.level}</p>
                                 <p className="font-bold ">PER HOUR </p>
                                 <p>{dj.priceperHour}</p>
@@ -142,7 +142,7 @@ export default function Rent(){
             <div className="px-80 text-center p-10 items-center justify-center align-middle self-center">
                 <h1 className="text-4xl lg:text-6xl">Book an MC</h1>
                 <div className="  flex flex-col self-center lg:flex-row xl:flex-row p-10 items-center justify-center">
-                    <div className="p-10 flex flex-row flex-wrap gap-2">
+                    <div className="p-10 flex flex-row flex-wrap gap-5">
                         {djs.map((dj) => (
                             <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
                                 <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
@@ -154,7 +154,7 @@ export default function Rent(){
                             </div>
                         ))}
                     </div>
-                    <div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
+                    <div className="flex gap-10 flex-col items-center "><div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
                         <div className="">
                             <h1>What is Up MotherFuckers</h1>
                             <p>Fuck</p>
@@ -170,14 +170,14 @@ export default function Rent(){
                             <p>Fuck</p>
                         </div>
                     </div>
-                    
+                    <Link href="https://wa.me/255625250232"  className="rounded-full p-5 bg-blue-500  hover:bg-blue-900 font-bold text-2xl">TALK TO RECEPTION</Link>
+                    </div>
                 </div>
             </div>
             <div className="px-80 text-center p-10 items-center justify-center align-middle self-center">
                 <h1 className="text-4xl lg:text-6xl">Book a Producer</h1>
                 <div className="  flex flex-col self-center lg:flex-row xl:flex-row p-10 items-center justify-center">
-                    <div>
-                        <div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
+                    <div className="flex gap-10 flex-col items-center "><div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
                         <div className="">
                             <h1>What is Up MotherFuckers</h1>
                             <p>Fuck</p>
@@ -192,10 +192,10 @@ export default function Rent(){
                             <p>Fuck</p>
                             <p>Fuck</p>
                         </div>
-                        <button>BOOK HERE</button>
-                        </div>
                     </div>
-                    <div className="p-10 flex flex-row lg:flex-wrap gap-2">
+                    <Link href="https://wa.me/255625250232" className="rounded-full p-5 bg-blue-500  hover:bg-blue-900 font-bold text-2xl">TALK TO RECEPTION</Link>
+                    </div>
+                    <div className="p-10 flex flex-row lg:flex-wrap gap-5">
                         {djs.map((dj) => (
                             <div  className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10" key={dj.name}>
                                 <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
@@ -210,9 +210,44 @@ export default function Rent(){
                 </div>
             </div>
             <div className="px-80 text-center p-10 items-center justify-center align-middle self-center">
+                <h1 className="text-4xl lg:text-6xl">Book Your Favorite Musician</h1>
+                <div className="  flex flex-col self-center lg:flex-row xl:flex-row p-10 items-center justify-center">
+                    <div className="flex gap-10 flex-col items-center "><div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
+                        <div className="">
+                            <h1>What is Up MotherFuckers</h1>
+                            <p>Fuck</p>
+                            <p>Fuck</p>
+                            <h1>What is Up MotherFuckers</h1>
+                            <p>Fuck</p>
+                            <p>Fuck</p>
+                            <h1>What is Up MotherFuckers</h1>
+                            <p>Fuck</p>
+                            <p>Fuck</p>
+                            <h1>What is Up MotherFuckers</h1>
+                            <p>Fuck</p>
+                            <p>Fuck</p>
+                        </div>
+                    </div>
+                    <Link href="https://wa.me/255625250232"  className="rounded-full p-5 bg-blue-500  hover:bg-blue-900 font-bold text-2xl">TALK TO RECEPTION</Link>
+                    </div>
+                    <div className="p-10  flex flex-row flex-wrap gap-5">
+                        {djs.map((dj) => (
+                            <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
+                                <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
+                                <p className=" text-red-600">{dj.level}</p>
+                                <p className="font-bold ">PER HOUR </p>
+                                <p>{dj.priceperHour}</p>
+                                <p className="font-bold">PER SESSION</p>
+                                <p>{dj.priceperSession}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+            <div className="px-80 text-center p-10 items-center justify-center align-middle self-center">
                 <h1 className="text-4xl lg:text-6xl">Book a Band</h1>
                 <div className="  flex flex-col self-center lg:flex-row xl:flex-row p-10 items-center justify-center">
-                    <div className="p-10 flex flex-row flex-wrap gap-2">
+                    <div className="p-10 flex flex-row flex-wrap gap-5">
                         {djs.map((dj) => (
                             <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
                                 <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
@@ -224,7 +259,7 @@ export default function Rent(){
                             </div>
                         ))}
                     </div>
-                    <div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
+                    <div className="flex gap-10 flex-col items-center "><div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
                         <div className="">
                             <h1>What is Up MotherFuckers</h1>
                             <p>Fuck</p>
@@ -240,58 +275,14 @@ export default function Rent(){
                             <p>Fuck</p>
                         </div>
                     </div>
-                    
-                </div>
-            </div>
-            <div className="px-80 text-center p-10 items-center justify-center align-middle self-center">
-                <h1 className="text-4xl lg:text-6xl">Book Event Hoster</h1>
-                <div className="  flex flex-col self-center lg:flex-row xl:flex-row p-10 items-center justify-center">
-                    <div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
-                        <div className="">
-                            <h1>What is Up MotherFuckers</h1>
-                            <p>Fuck</p>
-                            <p>Fuck</p>
-                            <h1>What is Up MotherFuckers</h1>
-                            <p>Fuck</p>
-                            <p>Fuck</p>
-                            <h1>What is Up MotherFuckers</h1>
-                            <p>Fuck</p>
-                            <p>Fuck</p>
-                            <h1>What is Up MotherFuckers</h1>
-                            <p>Fuck</p>
-                            <p>Fuck</p>
-                        </div>
-                    </div>
-                    <div className="p-10 flex flex-row flex-wrap gap-2">
-                        {djs.map((dj) => (
-                            <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
-                                <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
-                                <p className=" text-red-600">{dj.level}</p>
-                                <p className="font-bold ">PER HOUR </p>
-                                <p>{dj.priceperHour}</p>
-                                <p className="font-bold">PER SESSION</p>
-                                <p>{dj.priceperSession}</p>
-                            </div>
-                        ))}
+                    <Link href="https://wa.me/255625250232"  className="rounded-full p-5 bg-blue-500  hover:bg-blue-900 font-bold text-2xl">TALK TO RECEPTION</Link>
                     </div>
                 </div>
             </div>
             <div className="px-80 text-center p-10 items-center justify-center align-middle self-center">
-                <h1 className="text-4xl lg:text-6xl">Book a Musician</h1>
+                <h1 className="text-4xl lg:text-6xl">Book an Event Hosters</h1>
                 <div className="  flex flex-col self-center lg:flex-row xl:flex-row p-10 items-center justify-center">
-                    <div className="p-10 flex flex-row flex-wrap gap-2">
-                        {djs.map((dj) => (
-                            <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
-                                <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
-                                <p className=" text-red-600">{dj.level}</p>
-                                <p className="font-bold ">PER HOUR </p>
-                                <p>{dj.priceperHour}</p>
-                                <p className="font-bold">PER SESSION</p>
-                                <p>{dj.priceperSession}</p>
-                            </div>
-                        ))}
-                    </div>
-                    <div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
+                    <div className="flex gap-10 flex-col items-center "><div className="p-30 bg-[url('/forhome/kingofstatenisland.webp')]  bg-cover">
                         <div className="">
                             <h1>What is Up MotherFuckers</h1>
                             <p>Fuck</p>
@@ -307,7 +298,20 @@ export default function Rent(){
                             <p>Fuck</p>
                         </div>
                     </div>
-                    
+                    <Link href="https://wa.me/255625250232"  className="rounded-full p-5 bg-blue-500  hover:bg-blue-900 font-bold text-2xl">TALK TO RECEPTION</Link>
+                    </div>
+                    <div className="p-10 flex flex-row lg:flex-wrap gap-5">
+                        {djs.map((dj) => (
+                            <div  className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10" key={dj.name}>
+                                <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
+                                <p className=" text-red-600">{dj.level}</p>
+                                <p className="font-bold ">PER HOUR </p>
+                                <p>{dj.priceperHour}</p>
+                                <p className="font-bold">PER SESSION</p>
+                                <p>{dj.priceperSession}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

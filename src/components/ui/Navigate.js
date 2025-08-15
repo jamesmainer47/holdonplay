@@ -30,10 +30,10 @@ export default function Navigate(){
                   {forNavs.map((navitem) => (
                     <Link href={navitem.link} key={navitem.name}>
                       <li className="p-4 m-2 relative group cursor-pointer">
-                        <span className="relative z -10">{navitem.name}</span>
+                        <span className="relative z -10 hover:text-blue-500">{navitem.name}</span>
                         <span className="absolute left-0 bottom-1 h-[2px] w-0 bg-blue-400 transition-all duration-500 ease-in-out group-hover:w-full"></span>
                       </li>
-                    </Link>
+                    </Link> 
                   ))}
                 </ul>
 
