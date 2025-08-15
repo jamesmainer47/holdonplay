@@ -11,7 +11,7 @@ import ThirdSection from "@/components/ui/thirdSection";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="shadow-2xl shadow-blue-400">
       <FirstSection/>
       <SecondSection/>
       <ThirdSection/>

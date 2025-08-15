@@ -3,9 +3,8 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/16/solid';
-
 const menu = [
-  { name: 'ONErpm Family', href: '/family' },
+  { name: 'holdONplay Family', href: '/family' },
   { name: 'Our Locations', href: '/locations' },
   { name: 'Social Blender', href: '/blender' },
   {
@@ -13,8 +12,7 @@ const menu = [
     children: [
       { name: 'Home', href: '/blog' },
       { name: 'New Music', href: '/blog/new-music' },
-      { name: 'Industry Newsimport HeaderNav from "@/components/HeaderNav";
-', href: '/blog/industry-news' },
+      { name: 'Industry' , href: '/blog/industry-news' },
       { name: 'ONE Publishing', href: '/blog/one-publishing' },
       { name: 'Tips & Tricks', href: '/blog/tips' },
       { name: 'Resources', href: '/blog/resources' },

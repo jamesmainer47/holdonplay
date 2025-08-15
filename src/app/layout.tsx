@@ -1,23 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navigate from "@/components/ui/Navigate";
 import Footer from "@/components/ui/footer";
+import MouseLight from "@/components/MouseLight";
+import { Poppins } from 'next/font/google'
+import News from "@/components/ui/news";
+import Chatbot from "@/components/ui/hopAssistant";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
-  title: "HoldONPlay",
-  description: "A Music Distribution Company",
+  title: "HoldONPlay | A Music Distribution Company",
+  description: "holdONplay is a Standalone Music Distribution Company. We have our Ways to Amplify Your Music",
 };
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'], // choose weights you need
+  variable: '--font-poppins',           // Tailwind-friendly CSS variable
+})
 
 export default function RootLayout({
   children,
@@ -27,8 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} text-white flex flex-col antialiased`}
-      >
+        className={`text-white ${poppins.variable} flex flex-col antialiased relative `}
+      > 
+        <News/>
+        <Chatbot/>
+        <MouseLight/>
         <Navigate/>
         {children}
         <Footer/>

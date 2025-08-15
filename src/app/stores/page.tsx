@@ -239,17 +239,17 @@ const companyz = [
 ]
 export default function Stores(){
     return (
-        <div className="flex flex-col items-center justify-center ">
-            <h1 className="text-7xl font-extrabold">Digital <span className="text-blue-400">Music Distribution </span>Stores</h1>
-            <p className="w-200 text-center">HoldOnPlay Music Distribution puts your music in the most popular digital stores around the world like Spotify, Apple Music, iTunes, Amazon Music, and more. In Face, We partner with over 150 digital stores. Below are just some of out top store partners.</p>
+        <div className="flex flex-col items-center justify-center p-5">
+            <h1 className="text-7xl font-extrabold text-center">Digital <span className="text-blue-400">Music Distribution </span>Stores</h1>
+            <p className="lg:px-60 px-5 sm:px-5 sm:text-justify text-justify md:px-20 lg:text-center">HoldOnPlay Music Distribution puts your music in the most popular digital stores around the world like Spotify, Apple Music, iTunes, Amazon Music, and more. In Face, We partner with over 150 digital stores. Below are just some of out top store partners.</p>
             <button className="hidden"><Link href="/sellMusic">SELL YOUR MUSIC ONLINE</Link></button>
-            <div className="w-250">
+            <div className="max-w-250 xl:max-w-400 p-5">
                 {companyz.map((src,i) => (
-                    <div className="flex p-5 border-b-2" key={src.name}>
-                        <Image  src={src.logo} width={200} height={200} alt={src.name}/>
-                        <div className="p-1 m-2">
+                    <div className="flex p-5 border-b-2 flex-col lg:flex-row md:flex-col sm:flex-col sm:mx-50" key={src.name}>
+                        <Image  src={src.logo} width={200} height={200} alt={src.name} className="p-5"/>
+                        <div className="">
                             <h1 className="text-2xl font-bold">{src.name}</h1>
-                            <p>{src.descr}</p>
+                            <p className="text-justify ">{src.descr}</p>
                             <button className="hidden"><Link href="/sell"></Link></button>
                         </div>
                     </div>
