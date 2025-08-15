@@ -125,9 +125,9 @@ export default function Rent(){
                     </div>
                     <Link href="/book/dj"  className="rounded-full p-5 bg-blue-500  hover:bg-blue-900 font-bold text-2xl">BOOK THE DJ HERE</Link>
                     </div>
-                    <div className="p-10 flex flex-row flex-wrap gap-2">
+                    <div className="p-10 sm:p-0 flex flex-row flex-wrap gap-2">
                         {djs.map((dj) => (
-                            <div key={dj} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
+                            <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
                                 <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
                                 <p className=" text-red-600">{dj.level}</p>
                                 <p className="font-bold ">PER HOUR </p>
@@ -144,7 +144,7 @@ export default function Rent(){
                 <div className="  flex flex-col self-center lg:flex-row xl:flex-row p-10 items-center justify-center">
                     <div className="p-10 flex flex-row flex-wrap gap-2">
                         {djs.map((dj) => (
-                            <div key={dj} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
+                            <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
                                 <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
                                 <p className=" text-red-600">{dj.level}</p>
                                 <p className="font-bold ">PER HOUR </p>
@@ -197,7 +197,7 @@ export default function Rent(){
                     </div>
                     <div className="p-10 flex flex-row lg:flex-wrap gap-2">
                         {djs.map((dj) => (
-                            <div  className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10" key={dj}>
+                            <div  className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10" key={dj.name}>
                                 <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
                                 <p className=" text-red-600">{dj.level}</p>
                                 <p className="font-bold ">PER HOUR </p>
@@ -214,7 +214,7 @@ export default function Rent(){
                 <div className="  flex flex-col self-center lg:flex-row xl:flex-row p-10 items-center justify-center">
                     <div className="p-10 flex flex-row flex-wrap gap-2">
                         {djs.map((dj) => (
-                            <div key={dj} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
+                            <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
                                 <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
                                 <p className=" text-red-600">{dj.level}</p>
                                 <p className="font-bold ">PER HOUR </p>
@@ -264,7 +264,7 @@ export default function Rent(){
                     </div>
                     <div className="p-10 flex flex-row flex-wrap gap-2">
                         {djs.map((dj) => (
-                            <div key={dj} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
+                            <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
                                 <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
                                 <p className=" text-red-600">{dj.level}</p>
                                 <p className="font-bold ">PER HOUR </p>
@@ -281,7 +281,7 @@ export default function Rent(){
                 <div className="  flex flex-col self-center lg:flex-row xl:flex-row p-10 items-center justify-center">
                     <div className="p-10 flex flex-row flex-wrap gap-2">
                         {djs.map((dj) => (
-                            <div key={dj} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
+                            <div key={dj.name} className="flex flex-col bg-blue-700 hover:bg-blue-900  rounded-2xl p-10">
                                 <h1 className="font-bold">{dj.name.toUpperCase()}</h1>
                                 <p className=" text-red-600">{dj.level}</p>
                                 <p className="font-bold ">PER HOUR </p>
