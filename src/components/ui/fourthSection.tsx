@@ -16,7 +16,7 @@ export default function FourthSection(){
                     <li>Detailed sales data to guide your music strategy</li>
                     <li>Discover why we are better than <Link href="/whynotetunecore">TuneCore</Link> and <Link href="/whynotdistrokid">DistroKid</Link></li>
                 </ul>
-                <Link href="/services" className="p-2 border-2 flex text-center self-center  hover:bg-blue-800  bg-blue-400 font-bold rounded-full border-blue-400">ALL OUR SERVICES</Link>
+                <Link href="/stores" className="p-2 border-2 flex text-center self-center  hover:bg-blue-800  bg-blue-400 font-bold rounded-full border-blue-400">ALL OUR SERVICES</Link>
             </div>
         </div>
     )

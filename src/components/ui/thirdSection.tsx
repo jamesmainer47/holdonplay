@@ -11,7 +11,7 @@ export default function ThirdSection(){
                 promotional tools that help musicians grow their audience and revenue.
             </p>
             <p className="text-center text-2xl p-5">As a pioneer in Hiphop Music Distribution and Independent digital music distribution, HoldOnPlay is dedicated to making music accessible while keeping artists in control</p>
-            <button className="p-2 border-2 bg-blue-400 w-fit self-center hover:bg-blue-800  border-blue-400 rounded-full font-bold"><Link href="/distributionplans">SEE OUR DISTRIBUTION PLANS</Link></button>
+            <button className="p-2 border-2 bg-blue-400 w-fit self-center hover:bg-blue-800  border-blue-400 rounded-full font-bold"><Link href="/sellMusic">SEE OUR DISTRIBUTION PLANS</Link></button>
         </div>
 
         </div>

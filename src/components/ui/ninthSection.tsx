@@ -16,8 +16,8 @@ export default function NinthSection(){
                     streams for opted-in artists.
                 </p>
                 <div className="flex">
-                    <button className="p-2 w-fit self-center m-2 bg-blue-400 border-blue-400 hover:bg-blue-800  rounded-full border-2"><Link href="/signUp">SIGN UP </Link></button>
-                    <button className="p-2 w-fit self-center m-2 bg-black border-blue-400 hover:bg-blue-800  rounded-full border-2"><Link href="/watchVideo">WATCH READ THE REPORT</Link></button>
+                    <button className="p-2 w-fit self-center m-2 bg-blue-400 border-blue-400 hover:bg-blue-800  rounded-full border-2"><Link href="/sellMusic">SIGN UP </Link></button>
+                    <button className="p-2 w-fit self-center m-2 bg-black border-blue-400 hover:bg-blue-800  rounded-full border-2"><Link href="/book">WATCH READ THE REPORT</Link></button>
                 </div>
             </div>
             <Image src="/forhome/tool.webp" alt="simple" width={500} height={500}/>

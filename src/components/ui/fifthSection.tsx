@@ -12,7 +12,7 @@ export default function FifthSection(){
                 Choose an unlimited distribution plan, upload your music and we&apos;ll do the rest. Your music will hit top digital stores, like Spotify and Apple Music, in no time
             </p>
             <button className="rounded-full border-2 p-2 bg-blue-400 hover:bg-blue-800  font-bold border-blue-400">
-                <Link href="/sellmusic">SELL YOUR MUSIC</Link>
+                <Link href="/sellMusic">SELL YOUR MUSIC</Link>
             </button>
             </div>
         </div>

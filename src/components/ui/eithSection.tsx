@@ -21,10 +21,10 @@ export default function EightSection(){
                 </ul>
                 <div>
                 <button className="p-2 m-2 w-fit self-center border-blue-400 bg-blue-400 rounded-full border-2 hover:bg-blue-800">
-                    <Link href="/earnings">LEARN MORE</Link>
+                    <Link href="/stores">LEARN MORE</Link>
                 </button>
                 <button className="p-2 m-2 border-blue-400 w-fit self-center bg-gray-800 hover:bg-blue-800  rounded-full border-2">
-                    <Link href="/earningsvideo">PLAY VIDEO</Link>
+                    <Link href="/book">BOOK YOUR PERSONNEL</Link>
                 </button>
                 </div>
             </div>
